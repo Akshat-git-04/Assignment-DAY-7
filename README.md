@@ -90,11 +90,3 @@ Export your current filtered inventory to `.csv` including:
 This allows easy backup or import into spreadsheets.
 
 ---
-
-## To-Do / Improvements
-
-* Add authentication & role-based access
-* Connect to backend API or database
-* Add email notifications on checkout
-
----
