@@ -1,12 +1,3 @@
-Absolutely! Here's your **corrected and enhanced `README.md`** with:
-
-* Proper markdown syntax fixes
-* Correct GitHub URL formatting
-* Additional **4–5 unique features** based on your project
-
----
-
-
 # E-Commerce Dashboard
 
 A multi-tenant e-commerce dashboard built with **React**, **Redux Toolkit**, and **Tailwind CSS**. It allows managing inventory, simulating real-time updates, tracking orders, and operating shopping carts — all in a single, modular interface.
