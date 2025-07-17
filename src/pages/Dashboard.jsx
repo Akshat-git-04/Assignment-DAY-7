@@ -71,7 +71,7 @@ const products = tenantId === 'all' ? allProducts : allProducts.filter(p => p.te
 
   return (
     <div className="p-6 max-w-7xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">🛍️ Ecommerce Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-6">E-commerce Dashboard</h1>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="md:col-span-2">

@@ -10,13 +10,6 @@ import { inventoryAPI } from '../features/inventory/inventoryAPI';
 const persistConfig = {
   key: 'root',
   storage,
-//   migrate: (state) => {
-//     // Reset state if it's corrupted
-//     if (!state || !state.inventory) {
-//       return undefined;
-//     }
-//     return state;
-//   },
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

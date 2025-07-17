@@ -75,7 +75,7 @@ export default function InventoryDashboard() {
   return (
     <div className="p-4 max-w-5xl mx-auto">
       <div className="flex items-center justify-between mb-4">
-        <h1 className="text-2xl font-bold">📦 Inventory Dashboard</h1>
+        <h1 className="text-2xl font-bold">Inventory Dashboard</h1>
         <button
           onClick={handleCSVExport}
           className="bg-green-600 text-white px-4 py-2 rounded"

@@ -10,7 +10,7 @@ export default function OrdersPage() {
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-3xl font-bold mb-6">🧾 My Orders</h1>
+      <h1 className="text-3xl font-bold mb-6">My Orders</h1>
 
       {sortedOrders.length === 0 ? (
         <p className="text-gray-600">No orders placed yet.</p>
