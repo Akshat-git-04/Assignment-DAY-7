@@ -1,12 +1,109 @@
-# React + Vite
+Absolutely! Here's your **corrected and enhanced `README.md`** with:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* Proper markdown syntax fixes
+* Correct GitHub URL formatting
+* Additional **4–5 unique features** based on your project
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# E-Commerce Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A multi-tenant e-commerce dashboard built with **React**, **Redux Toolkit**, and **Tailwind CSS**. It allows managing inventory, simulating real-time updates, tracking orders, and operating shopping carts — all in a single, modular interface.
+
+---
+
+## Features
+
+-  **Multi-Tenant Switching** — Filter data per store (Store 1, 2, 3, or All)
+-  **Inventory Management** — Add, edit, and delete products per store
+-  **Export to CSV** — Download full inventory with one click
+-  **Shopping Cart Panel** — Dynamic cart with stock-aware quantity limits
+-  **Store-wise Analytics** — Track total products and value by tenant
+-  **Search + Pagination** — Search inventory by name and browse with pagination
+-  **Order Placement** — Simulated order creation and cart clearing
+
+---
+
+##  Project Structure
+
+```
+
+src/
+├── app/                 # Redux store setup
+├── components/          # Reusable UI components
+│   ├── ProductCard.jsx
+│   ├── ShoppingCartPanel.jsx
+│   └── Navbar.jsx
+├── features/            # Redux slices (inventory, cart, orders, tenant)
+│   ├── inventory/
+│   ├── cart/
+│   ├── orders/
+│   └── tenant/
+├── pages/               # Main views (Dashboard, OrdersPage, InventoryDashboard)
+├── utils/               # Helpers & mock WebSocket simulation
+└── main.jsx             # App entry point
+└── App.jsx             # App entry point
+└── App.css             # App entry point
+
+````
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Akshat-git-04/Assignment-DAY-7.git
+cd Assignment-DAY-7
+````
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+The app runs at `http://localhost:5173`.
+
+---
+
+## 🔧 Tech Stack
+
+* **React**
+* **Redux Toolkit**
+* **Tailwind CSS**
+* **uuid** — for generating product/order IDs
+* **React Icons** — for clean UI icons
+* **Vite** — blazing-fast dev server
+
+---
+
+## Exporting Inventory
+
+Export your current filtered inventory to `.csv` including:
+
+* Product ID
+* Name
+* Quantity
+* Price
+* Tenant
+
+This allows easy backup or import into spreadsheets.
+
+---
+
+## To-Do / Improvements
+
+* Add authentication & role-based access
+* Connect to backend API or database
+* Add email notifications on checkout
+
+---
